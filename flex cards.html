@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Cards</title>
+  </head>
+  <style>
+    #container {
+      border: 1px solid rgb(255, 255, 255);
+      width: 90%;
+      margin: auto;
+    }
+    #container > .cardDiv {
+      border: 1px solid rgb(255, 255, 255);
+      display: flex;
+    }
+    .cardDiv > .cards {
+      border: 1px solid rgb(255, 255, 255);
+      width: 26%;
+      margin: auto;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    img {
+      width: 100%;
+    }
+    h1 {
+      margin-left: 10px;
+    }
+    p {
+      margin-left: 19px;
+     font-size: larger;
+    }
+    span {
+      color: rgba(255, 0, 0, 0.995);
+    }
+    .cardDiv > .cards:nth-child(2) {
+      margin-left: -100px;
+      margin-right: -100px;
+    }
+    #container > .cardDiv:nth-child(2) {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div class="cardDiv">
+        <div class="cards">
+          <img
+            src="https://ichef.bbci.co.uk/news/1024/branded_news/84E3/production/_121591043_gchqcheltenham.jpg"
+            alt=""
+          />
+          <h1>UK and US join forces to strike back in cyber-space</h1>
+          <p><span>|</span> TECHNOLOGY</p>
+        </div>
+        <div class="cards">
+          <img
+            src="https://ichef.bbci.co.uk/news/1024/branded_news/A5B3/production/_121591424_gaga.jpg"
+            alt=""
+          />
+          <h1>Lady Gaga took personal trauma into Gucci role</h1>
+          <p><span>|</span> ENTERTEINMENT & ARTS</p>
+        </div>
+        <div class="cards">
+          <img
+            src="https://media.gettyimages.com/photos/oops-little-girl-laughing-picture-id1172643701?k=20&m=1172643701&s=612x612&w=0&h=VMgpcB4gfR-TjVm7uxTXbc7LcvM-PIOaxPACwfNXCwc="
+            alt=""
+          />
+          <h1>
+            The mothers using Instagram to offer advice to new mums and dads
+          </h1>
+          <p><span>|</span> BUSINESS</p>
+        </div>
+      </div>
+      <div class="cardDiv">
+        <div class="cards">
+          <img
+            src="https://ichef.bbci.co.uk/news/1024/branded_news/10A7A/production/_121581286_shukmanhi071617079.jpg"
+            alt=""
+          />
+          <h1>'I've seen irreversible change but hope too for planet'</h1>
+          <p><span>|</span> SCIENCE & ENVIROMENT</p>
+        </div>
+        <div class="cards">
+          <img
+            src="https://c.files.bbci.co.uk/84A7/production/_121595933_976_afp_gettyimages-1236617930.jpg"
+            alt=""
+          />
+          <h1>Full force of Covid hitting Germany, warns Merkel</h1>
+          <p><span>|</span> EUROPE</p>
+        </div>
+        <div class="cards">
+          <img
+            src="https://c.files.bbci.co.uk/24AD/production/_121598390_hi071983362.jpg"
+            alt=""
+          />
+          <h1>Baby elephant dies after losing half its trunk</h1>
+          <p><span>|</span> TECHNOLOGY</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
